@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<VoiceMacroProfile>
+  <GUID>6b163248-7cd9-493e-9e68-6b6e5ec2e71f</GUID>
+  <ProfileName>Notepad++</ProfileName>
+  <TargetWindow>[Active window]</TargetWindow>
+  <TargetExecutable>notepad++.exe</TargetExecutable>
+  <Groups>
+    <Group>
+      <Name></Name>
+      <Hidden>false</Hidden>
+      <Prefixes></Prefixes>
+      <Suffixes></Suffixes>
+      <PrefixesSuffixes></PrefixesSuffixes>
+    </Group>
+    <Group>
+      <Name>Actions</Name>
+      <Hidden>false</Hidden>
+      <Prefixes></Prefixes>
+      <Suffixes></Suffixes>
+      <PrefixesSuffixes></PrefixesSuffixes>
+    </Group>
+  </Groups>
+  <Commands>
+    <Commands>
+      <GUID>4b014c8c-6faa-42a4-826e-f1a6b1799a1c</GUID>
+      <Group>Actions</Group>
+      <RecocnitionText>New Tab</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <OnlyIfTargetWinActive>true</OnlyIfTargetWinActive>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>N</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <lCTRL>true</lCTRL>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>4d3d6438-3c04-41ad-a11c-7e14078a5f5a</GUID>
+      <Group>Actions</Group>
+      <RecocnitionText>Close Tab</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <OnlyIfTargetWinActive>true</OnlyIfTargetWinActive>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>W</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <lCTRL>true</lCTRL>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+  </Commands>
+</VoiceMacroProfile>

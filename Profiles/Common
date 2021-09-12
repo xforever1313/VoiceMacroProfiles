@@ -1,0 +1,1799 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<VoiceMacroProfile>
+  <GUID>d0da3055-88a5-4b45-a240-970add3144ce</GUID>
+  <ProfileName>Common</ProfileName>
+  <TargetWindow>[Active window]</TargetWindow>
+  <Groups>
+    <Group>
+      <Name></Name>
+      <Hidden>false</Hidden>
+      <Prefixes></Prefixes>
+      <Suffixes></Suffixes>
+      <PrefixesSuffixes></PrefixesSuffixes>
+    </Group>
+    <Group>
+      <Name>Actions</Name>
+      <Hidden>false</Hidden>
+      <Prefixes></Prefixes>
+      <Suffixes></Suffixes>
+      <PrefixesSuffixes></PrefixesSuffixes>
+    </Group>
+    <Group>
+      <Name>Typing</Name>
+      <Hidden>false</Hidden>
+      <Prefixes></Prefixes>
+      <Suffixes></Suffixes>
+      <PrefixesSuffixes></PrefixesSuffixes>
+    </Group>
+    <Group>
+      <Name>Arrow Movement</Name>
+      <Hidden>false</Hidden>
+      <Prefixes></Prefixes>
+      <Suffixes></Suffixes>
+      <PrefixesSuffixes></PrefixesSuffixes>
+    </Group>
+    <Group>
+      <Name>Movement</Name>
+      <Hidden>false</Hidden>
+      <Prefixes></Prefixes>
+      <Suffixes></Suffixes>
+      <PrefixesSuffixes></PrefixesSuffixes>
+    </Group>
+  </Groups>
+  <Commands>
+    <Commands>
+      <GUID>fb9af49e-cf83-44fb-8b1b-e8034f71f67e</GUID>
+      <Group>Actions</Group>
+      <Description>Saves the current document</Description>
+      <RecocnitionText>Save;Save It</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>S</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <lCTRL>true</lCTRL>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>b9b5fbd1-1d12-425d-9bd5-d37ae9686e77</GUID>
+      <Group>Actions</Group>
+      <Description>Copies the current selected text to the clipboard</Description>
+      <RecocnitionText>Copy;yank</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>None</Key>
+            <ClickDownUp>2</ClickDownUp>
+            <lShift>true</lShift>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>C</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <lCTRL>true</lCTRL>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>ed534eb4-3290-4167-96c4-d3559c044150</GUID>
+      <Group>Actions</Group>
+      <Description>Cuts the current selected text to the clipboard</Description>
+      <RecocnitionText>Cut;Cut It</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>X</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <lCTRL>true</lCTRL>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>fcc261a3-6896-46eb-8fe1-3ec61b0fd074</GUID>
+      <Group>Actions</Group>
+      <Description>Pastes what on the Clipboard</Description>
+      <RecocnitionText>Paste;Paste It</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>V</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <lCTRL>true</lCTRL>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>9949e376-1b3c-46be-9b75-1e57730920bd</GUID>
+      <Group>Actions</Group>
+      <Description>Undoes the last action</Description>
+      <RecocnitionText>Undo</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Z</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <lCTRL>true</lCTRL>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>fb5269de-bcdd-4adb-9557-9cfd0d683368</GUID>
+      <Group>Actions</Group>
+      <Description>Redoes the last action</Description>
+      <RecocnitionText>Redo</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Y</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <lCTRL>true</lCTRL>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>140732d3-6326-45cb-a143-73368f931b2f</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Up</Description>
+      <RecocnitionText>up one; up 1</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Up</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>89dfc508-f77f-4413-8a49-0b37e82d5ce7</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Up</Description>
+      <RecocnitionText>up two; up 2</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>2</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Up</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>f5ae4733-4db3-4a10-9989-ec1668a4b6f9</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Up</Description>
+      <RecocnitionText>up three; up 3</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>3</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Up</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>de650bf8-67e8-42b9-8ab7-7ade0f513ba8</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Up</Description>
+      <RecocnitionText>up four; up 4</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>4</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Up</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>ff76de36-1dbf-464f-8824-7958fd26b32e</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Up</Description>
+      <RecocnitionText>up five; up 5</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>5</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Up</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>65636c38-2bd2-496a-8fe3-9e6fd3ca58e4</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Up</Description>
+      <RecocnitionText>up six; up 6</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>6</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Up</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>ece503a9-5a34-467a-b788-17265a9f61d7</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Up</Description>
+      <RecocnitionText>up seven; up 7</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>7</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Up</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>1581bc39-d60a-4acb-aca6-1af261b4c735</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Up</Description>
+      <RecocnitionText>up eight; up 8</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>8</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Up</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>bec84dfd-ef36-42ca-9ef2-610e1814f855</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Up</Description>
+      <RecocnitionText>up nine; up 9</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>9</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Up</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>7c79fb2f-bc5b-420a-9062-c879286b69be</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Up</Description>
+      <RecocnitionText>up ten; up 10</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>10</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Up</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>ce353cd3-6a4a-45b2-a841-0b99ae6e6d73</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Up</Description>
+      <RecocnitionText>up fifthteen; up 15</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>15</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Up</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>87330933-7051-4397-8f8f-a3a08b93c79c</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Up</Description>
+      <RecocnitionText>up twenty; up 20</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>20</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Up</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>39d1caa2-9026-4529-b108-8a590810cb8f</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Up</Description>
+      <RecocnitionText>up thirty; up 30</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>30</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Up</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>5c3bdc6e-536f-413d-bb66-2fb1d10da868</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Down</Description>
+      <RecocnitionText>down one;down 1</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Down</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>5a79b2b3-50b9-4388-8ccf-1328d3ee0253</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Down</Description>
+      <RecocnitionText>down two;down 2</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>2</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Down</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>dc95044a-55d5-4d90-88d6-7ecf9b965832</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Down</Description>
+      <RecocnitionText>down three;down 3</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>3</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Down</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>7fdb3f13-eaef-448c-958c-83efe9c9accc</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Down</Description>
+      <RecocnitionText>down four;down 4</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>4</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Down</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>0123d71e-5614-47a2-9f72-f108eb9232e9</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Down</Description>
+      <RecocnitionText>down five;down 5</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>5</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Down</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>de23b4e3-479c-4a6b-969e-b6187e172ef1</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Down</Description>
+      <RecocnitionText>down six;down 6</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>6</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Down</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>b61e11bc-9230-4953-a229-edf63203ca72</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Down</Description>
+      <RecocnitionText>down seven;down 7</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>7</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Down</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>85dd4b61-d278-4c6c-bf6c-046d9842622d</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Down</Description>
+      <RecocnitionText>down eight;down 8</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>8</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Down</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>83b618c6-32d1-4714-a661-76581c882a69</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Down</Description>
+      <RecocnitionText>down nine;down 9</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>9</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Down</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>c978bd45-a3cb-41f5-a452-363aea97cc74</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Down</Description>
+      <RecocnitionText>down ten;down 10</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>10</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Down</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>4dc6ad5e-593a-4478-9c28-61b5200d9e69</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Down</Description>
+      <RecocnitionText>down fifthteen;down 15</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>15</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Down</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>83d8eff7-ebf7-440b-9ee8-6fdc4bda2b7f</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Down</Description>
+      <RecocnitionText>down twenty; down 20</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>20</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Down</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>fea25b6d-bc40-4d10-84dc-59414032fc89</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Down</Description>
+      <RecocnitionText>down thirty; down 230</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>30</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Down</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>eb5301f6-6ba0-4ede-b831-a67fb258472f</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Left</Description>
+      <RecocnitionText>left one;left 1</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Left</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>1cab40fa-2453-4654-b8e4-c547de751116</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Left</Description>
+      <RecocnitionText>left two;left 2</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>2</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Left</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>b7be7474-2094-4bf2-8314-207df1c4e299</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Left</Description>
+      <RecocnitionText>left three;left 3</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>3</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Left</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>90e7a8a4-9bca-4320-b727-769ab57b6daf</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Left</Description>
+      <RecocnitionText>left four;left 4</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>4</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Left</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>c4380f67-1a7a-4c57-b6a5-449a46c48cf7</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Left</Description>
+      <RecocnitionText>left five;left 5</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>5</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Left</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>e85f5275-c7c8-4b5b-bb26-5f5ef0098ad1</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Left</Description>
+      <RecocnitionText>left six;left 6</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>6</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Left</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>71ea858a-97b3-4ccb-a688-e3f1b65edcc4</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Left</Description>
+      <RecocnitionText>left seven;left 7</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>7</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Left</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>c69604f5-2a4b-467c-9ab0-55dbad6898a9</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Left</Description>
+      <RecocnitionText>left eight;left 8</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>8</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Left</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>3e9f1942-6d8f-4c79-9817-1b19d8a22d8c</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Left</Description>
+      <RecocnitionText>left nine;left 9</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>9</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Left</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>ca22bf85-7165-4b37-817c-ad6dbbca819f</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Left</Description>
+      <RecocnitionText>left ten;left 10</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>10</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Left</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>60d2dc58-00f1-4ed3-abeb-e4ed78febe0a</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Left</Description>
+      <RecocnitionText>left fifthteen;left 15</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>15</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Left</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>31e21ba1-54aa-49fe-b028-ad488eeed22e</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Left</Description>
+      <RecocnitionText>left twenty;left 20</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>20</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Left</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>831b760f-5b55-4e10-8b93-1ade71d6477a</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Left</Description>
+      <RecocnitionText>left thirty;left 30</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>30</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Left</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>ef869cf2-58f4-4a5b-a2d9-904a13da9cf8</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Right</Description>
+      <RecocnitionText>right one;right 1</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Right</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>60bc2691-9b82-4933-8326-12b5e34a3f69</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Right</Description>
+      <RecocnitionText>right two;right 2</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>2</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Right</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>3d08157f-f51c-4acc-8db3-248a21de9610</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Right</Description>
+      <RecocnitionText>right three;right 3</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>3</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Right</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>c1170458-51c7-4cce-9a52-ce5097a8990b</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Right</Description>
+      <RecocnitionText>right four;right 4</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>4</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Right</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>4b2682eb-c222-4ece-80c5-69bac3ff04bb</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Right</Description>
+      <RecocnitionText>right five;right 5</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>5</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Right</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>7fc00919-a073-418b-ac7c-b4c0f0e7f5a4</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Right</Description>
+      <RecocnitionText>right six;right 6</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>6</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Right</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>c6f5b08a-e849-4bf4-8c65-431057ec167b</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Right</Description>
+      <RecocnitionText>right seven;right 7</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>7</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Right</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>0e095436-6a79-48f5-bd3a-8a59a73540d6</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Right</Description>
+      <RecocnitionText>right eight;right 8</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>8</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Right</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>a1153509-1c32-460b-a1ce-5d9981e6e0de</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Right</Description>
+      <RecocnitionText>right nine;right 9</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>9</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Right</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>515e9670-9c39-4ce9-b8a7-f76caec3ffaa</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Right</Description>
+      <RecocnitionText>right ten;right 10</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>10</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Right</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>ceb48a9f-d2d3-4795-a329-35defd47dc38</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Right</Description>
+      <RecocnitionText>right fifthteen;right 15</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>15</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Right</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>f084f6bc-bb1c-4a2c-8fc8-4870cf430bfd</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Right</Description>
+      <RecocnitionText>right twenty; right 20</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>20</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Right</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>14e2078f-2670-4a88-b877-e962b4bf97e9</GUID>
+      <Group>Arrow Movement</Group>
+      <Description>Arrow Keys Right</Description>
+      <RecocnitionText>right thirty; right 30</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>30</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Right</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>49c6f2ce-0e12-44e1-9297-6b5cb3fe95ca</GUID>
+      <Group>Typing</Group>
+      <Description>Hits the "Delete" key</Description>
+      <RecocnitionText>Delete</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Delete</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>53720b5d-6765-4843-a9d1-094f8e06113d</GUID>
+      <Group>Typing</Group>
+      <Description>Hits the "backspace" key</Description>
+      <RecocnitionText>Backspace;back space</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Back</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>b662247b-84a8-4461-a600-cc3dfeb16c76</GUID>
+      <Group>Typing</Group>
+      <Description>Hits the Enter button once.</Description>
+      <RecocnitionText>Enter;Slap</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Return</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>a8aed8f1-7e41-4fec-af77-b3d3eadf8421</GUID>
+      <Group>Typing</Group>
+      <Description>Hits the Enter button.</Description>
+      <RecocnitionText>Enter two;Slap Slap;Enter 2</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>2</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Return</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>64138bfb-fe18-43c5-b541-a2694fac9ec6</GUID>
+      <Group>Typing</Group>
+      <Description>Hits the Tab button once.</Description>
+      <RecocnitionText>Tab;Tab 1</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Tab</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>bbcbebcc-bf4c-43ce-b3fd-65e8a601f62a</GUID>
+      <Group>Typing</Group>
+      <Description>Hits the Tab button.</Description>
+      <RecocnitionText>Tab Tab;Tab 2;Tab Two</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <Repeat>true</Repeat>
+      <RepeatCount>2</RepeatCount>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Tab</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>9db16e0d-83e3-450e-9293-13cbe1aea5b3</GUID>
+      <Group>Typing</Group>
+      <Description>Starts Dictation Mode</Description>
+      <RecocnitionText>say it</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>40</MacroType>
+          <SpeechToText>
+            <SpeechToTextFile></SpeechToTextFile>
+            <ttsPhrases></ttsPhrases>
+            <CommandExit>ok</CommandExit>
+            <CommandConfirm>new line</CommandConfirm>
+            <CommandDelete>delete</CommandDelete>
+            <CommandAbort>abort</CommandAbort>
+            <WriteAll>true</WriteAll>
+            <PlaySounds>true</PlaySounds>
+            <Volume>70</Volume>
+          </SpeechToText>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>47ad50bf-bd0e-481d-8625-4794242f0039</GUID>
+      <Group>Actions</Group>
+      <Description>Selects Everything</Description>
+      <RecocnitionText>Select All</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>A</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <lCTRL>true</lCTRL>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>c8ae8112-9863-4423-a3db-39ebd5567afe</GUID>
+      <Group>Actions</Group>
+      <Description>Selects all and Copies</Description>
+      <RecocnitionText>Copy All</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>A</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <lCTRL>true</lCTRL>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>C</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <lCTRL>true</lCTRL>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>0dac2b2d-cf1b-463e-9f47-c5c5ae99c77b</GUID>
+      <Group>Actions</Group>
+      <Description>Selects all and Cuts</Description>
+      <RecocnitionText>Cut All</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>A</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <lCTRL>true</lCTRL>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>X</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <lCTRL>true</lCTRL>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>d89fdddf-3bb5-4e51-8dcf-3d014378b6fb</GUID>
+      <Group>Actions</Group>
+      <Description>Selects All and then Deletes</Description>
+      <RecocnitionText>Delete All</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>A</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <lCTRL>true</lCTRL>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Delete</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>388a9448-ee86-4a32-b72f-ea489328546e</GUID>
+      <Group>Movement</Group>
+      <RecocnitionText>Page Up</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>PageUp</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>23f104de-6915-4549-8d06-3ceedcb6b5f3</GUID>
+      <Group>Movement</Group>
+      <RecocnitionText>Page Down</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Next</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>532203c1-3d1f-475a-a887-7edc48622f27</GUID>
+      <Group>Actions</Group>
+      <RecocnitionText>Escape</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Escape</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>99b1b2c6-1359-42a6-b03c-f303e09cef7c</GUID>
+      <Group>Actions</Group>
+      <RecocnitionText>Exit Window;Exit Process</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>F4</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <Alt>true</Alt>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+  </Commands>
+</VoiceMacroProfile>
