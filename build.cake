@@ -69,7 +69,7 @@ Task( splitTarget )
                     }
                 }
 
-                FilePath outputFile = config.OutputDir.CombineWithFilePath( File( name ) );
+                FilePath outputFile = config.OutputDir.CombineWithFilePath( File( name + ".xml" ) );
                 XDocument outputDoc = new XDocument(
                     new XDeclaration( "1.0", "utf-8", "yes" ),
                     profileNode
