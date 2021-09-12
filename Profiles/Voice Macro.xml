@@ -2,7 +2,7 @@
 <VoiceMacroProfile>
   <GUID>14dfbdaa-9675-466b-8890-74ecd0ccb05c</GUID>
   <ProfileName>Voice Macro</ProfileName>
-  <TargetWindow>OpenRA</TargetWindow>
+  <TargetWindow>[Active window]</TargetWindow>
   <TargetExecutable>VoiceMacro.exe</TargetExecutable>
   <Groups>
     <Group>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<VoiceMacroProfile>
+  <GUID>647b0620-3d57-4809-8f52-0c650e1c723d</GUID>
+  <ProfileName>PowerShell</ProfileName>
+  <TargetWindow>[Active window]</TargetWindow>
+  <TargetExecutable>powershell.exe</TargetExecutable>
+</VoiceMacroProfile>

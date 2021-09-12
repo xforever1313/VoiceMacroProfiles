@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<VoiceMacroProfile>
+  <GUID>17af0b34-e164-45c2-992a-e2d7075560a4</GUID>
+  <ProfileName>WinShell</ProfileName>
+  <TargetWindow>[Active window]</TargetWindow>
+  <TargetProfiles>CMD;PowerShell</TargetProfiles>
+  <Groups>
+    <Group>
+      <Name></Name>
+      <Hidden>false</Hidden>
+      <Prefixes></Prefixes>
+      <Suffixes></Suffixes>
+      <PrefixesSuffixes></PrefixesSuffixes>
+    </Group>
+    <Group>
+      <Name>Commands</Name>
+      <Hidden>false</Hidden>
+      <Prefixes></Prefixes>
+      <Suffixes></Suffixes>
+      <PrefixesSuffixes></PrefixesSuffixes>
+    </Group>
+  </Groups>
+  <Commands>
+    <Commands>
+      <GUID>e02cb6bd-7966-4fbb-b250-a33b6346ac15</GUID>
+      <Group>Commands</Group>
+      <Description>Goes up one directory</Description>
+      <RecocnitionText>dot dot</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <OnlyIfTargetWinActive>true</OnlyIfTargetWinActive>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>55</MacroType>
+          <InsertText>
+            <Text>cd ..
+</Text>
+            <UseKeyboard>true</UseKeyboard>
+            <UseAlternative>false</UseAlternative>
+            <ClickDuration>20</ClickDuration>
+            <ClickDelay>10</ClickDelay>
+          </InsertText>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>612496ec-f57f-4ca4-b3e8-b6410b29b5e5</GUID>
+      <Group>Commands</Group>
+      <Description>Goes up one directory</Description>
+      <RecocnitionText>exit</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <OnlyIfTargetWinActive>true</OnlyIfTargetWinActive>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>55</MacroType>
+          <InsertText>
+            <Text>exit
+</Text>
+            <UseKeyboard>true</UseKeyboard>
+            <UseAlternative>false</UseAlternative>
+            <ClickDuration>20</ClickDuration>
+            <ClickDelay>10</ClickDelay>
+          </InsertText>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+  </Commands>
+</VoiceMacroProfile>

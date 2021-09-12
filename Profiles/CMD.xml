@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<VoiceMacroProfile>
+  <GUID>64c8bf6e-10a7-47d0-baa3-0eb81bab0a30</GUID>
+  <ProfileName>CMD</ProfileName>
+  <TargetWindow>[Active window]</TargetWindow>
+  <TargetExecutable>cmd.exe</TargetExecutable>
+</VoiceMacroProfile>
