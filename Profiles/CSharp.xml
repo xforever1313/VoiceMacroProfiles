@@ -130,6 +130,106 @@
       </MacroActions>
     </Commands>
     <Commands>
+      <GUID>ef38ff5b-4a51-44e4-b79e-ba63e8875939</GUID>
+      <Group>Sections</Group>
+      <Description>Adds the given section to code</Description>
+      <RecocnitionText>section setup [teardown]</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <OnlyIfTargetWinActive>true</OnlyIfTargetWinActive>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>55</MacroType>
+          <InsertText>
+            <Text>// ---------------- Setup / Teardown ----------------</Text>
+            <UseKeyboard>false</UseKeyboard>
+            <UseAlternative>false</UseAlternative>
+            <ClickDuration>20</ClickDuration>
+            <ClickDelay>10</ClickDelay>
+          </InsertText>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>3f6acf42-8883-4541-9228-816a4615e7e9</GUID>
+      <Group>Sections</Group>
+      <Description>Adds the given section to code</Description>
+      <RecocnitionText>section test;section tests</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <OnlyIfTargetWinActive>true</OnlyIfTargetWinActive>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>55</MacroType>
+          <InsertText>
+            <Text>// ---------------- Tests ----------------</Text>
+            <UseKeyboard>false</UseKeyboard>
+            <UseAlternative>false</UseAlternative>
+            <ClickDuration>20</ClickDuration>
+            <ClickDelay>10</ClickDelay>
+          </InsertText>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>cc7df0a1-b173-4dd1-a94b-8f2150570d09</GUID>
+      <Group>Sections</Group>
+      <Description>Adds the given section to code</Description>
+      <RecocnitionText>section helper classes</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <OnlyIfTargetWinActive>true</OnlyIfTargetWinActive>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>55</MacroType>
+          <InsertText>
+            <Text>// ---------------- Helper Classes ----------------</Text>
+            <UseKeyboard>false</UseKeyboard>
+            <UseAlternative>false</UseAlternative>
+            <ClickDuration>20</ClickDuration>
+            <ClickDelay>10</ClickDelay>
+          </InsertText>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>524c1cb0-d4f6-4888-8a5c-f1472ff0c383</GUID>
+      <Group>Sections</Group>
+      <Description>Adds the given section to code</Description>
+      <RecocnitionText>section test helpers</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <OnlyIfTargetWinActive>true</OnlyIfTargetWinActive>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>55</MacroType>
+          <InsertText>
+            <Text>// ---------------- Test Helpers ----------------</Text>
+            <UseKeyboard>false</UseKeyboard>
+            <UseAlternative>false</UseAlternative>
+            <ClickDuration>20</ClickDuration>
+            <ClickDelay>10</ClickDelay>
+          </InsertText>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
       <GUID>543d0e7b-678c-4f11-8119-2ac43918b6c7</GUID>
       <Group>Code Creation</Group>
       <Description>Creates a new public function.</Description>

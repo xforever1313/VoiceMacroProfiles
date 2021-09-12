@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<VoiceMacroProfile>
+  <GUID>14dfbdaa-9675-466b-8890-74ecd0ccb05c</GUID>
+  <ProfileName>Voice Macro</ProfileName>
+  <TargetWindow>OpenRA</TargetWindow>
+  <TargetExecutable>VoiceMacro.exe</TargetExecutable>
+  <Groups>
+    <Group>
+      <Name></Name>
+      <Hidden>false</Hidden>
+      <Prefixes></Prefixes>
+      <Suffixes></Suffixes>
+      <PrefixesSuffixes></PrefixesSuffixes>
+    </Group>
+    <Group>
+      <Name>Window Management</Name>
+      <Hidden>false</Hidden>
+      <Prefixes></Prefixes>
+      <Suffixes></Suffixes>
+      <PrefixesSuffixes></PrefixesSuffixes>
+    </Group>
+  </Groups>
+  <Commands>
+    <Commands>
+      <GUID>f23d504f-f708-49f9-8cfc-4b95641cefcd</GUID>
+      <Group>Window Management</Group>
+      <Description>Makes the VoiceMacro window always on top.</Description>
+      <RecocnitionText>Lock To Top</RecocnitionText>
+      <ShortCut>
+        <Key>Up</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Alt>true</Alt>
+        <Clicks>1</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <UseShortCut>true</UseShortCut>
+      <OnlyIfTargetWinActive>true</OnlyIfTargetWinActive>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>28</MacroType>
+          <ChangeDisplayStyle>
+            <WindowTitle>VoiceMacro*</WindowTitle>
+            <SetStyle>false</SetStyle>
+            <Style>1</Style>
+            <SetTransparency>false</SetTransparency>
+            <Transparency>0</Transparency>
+            <SetTopMost>true</SetTopMost>
+            <TopMost>true</TopMost>
+            <SetBorder>false</SetBorder>
+            <Border>1</Border>
+          </ChangeDisplayStyle>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>2b25b685-d350-4666-85e7-eadf457fc372</GUID>
+      <Group>Window Management</Group>
+      <Description>Makes the VoiceMacro window no loner on top.</Description>
+      <RecocnitionText>Unlock From Top</RecocnitionText>
+      <ShortCut>
+        <Key>Down</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Alt>true</Alt>
+        <Clicks>1</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <UseShortCut>true</UseShortCut>
+      <OnlyIfTargetWinActive>true</OnlyIfTargetWinActive>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>28</MacroType>
+          <ChangeDisplayStyle>
+            <WindowTitle>VoiceMacro*</WindowTitle>
+            <SetStyle>false</SetStyle>
+            <Style>1</Style>
+            <SetTransparency>false</SetTransparency>
+            <Transparency>0</Transparency>
+            <SetTopMost>true</SetTopMost>
+            <TopMost>false</TopMost>
+            <SetBorder>false</SetBorder>
+            <Border>1</Border>
+          </ChangeDisplayStyle>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+  </Commands>
+</VoiceMacroProfile>
