@@ -1,0 +1,4 @@
+.cake/
+*.exe
+*.dll
+*.pdb
