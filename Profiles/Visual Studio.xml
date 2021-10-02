@@ -33,6 +33,13 @@
       <Suffixes></Suffixes>
       <PrefixesSuffixes></PrefixesSuffixes>
     </Group>
+    <Group>
+      <Name>Code Modification</Name>
+      <Hidden>false</Hidden>
+      <Prefixes></Prefixes>
+      <Suffixes></Suffixes>
+      <PrefixesSuffixes></PrefixesSuffixes>
+    </Group>
   </Groups>
   <Commands>
     <Commands>
@@ -457,6 +464,82 @@
             <lCTRL>true</lCTRL>
             <ClickDuration>20</ClickDuration>
           </Keyboard>
+        </MacroAction>
+      </MacroActions>
+    </Commands>
+    <Commands>
+      <GUID>940d7893-f9e5-4a52-86d9-4908d7ad0ca8</GUID>
+      <Group>Code Modification</Group>
+      <RecocnitionText>make sealed;create sealed</RecocnitionText>
+      <ShortCut>
+        <Key>None</Key>
+        <OnKeyAction>0</OnKeyAction>
+        <Clicks>0</Clicks>
+      </ShortCut>
+      <UseRecognition>true</UseRecognition>
+      <MacroActions>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>F</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <lCTRL>true</lCTRL>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+        <MacroAction>
+          <MacroType>3</MacroType>
+          <Pause>400</Pause>
+        </MacroAction>
+        <MacroAction>
+          <MacroType>55</MacroType>
+          <InsertText>
+            <Text>class</Text>
+            <UseKeyboard>false</UseKeyboard>
+            <UseAlternative>false</UseAlternative>
+            <ClickDuration>20</ClickDuration>
+            <ClickDelay>10</ClickDelay>
+          </InsertText>
+        </MacroAction>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Return</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <lShift>true</lShift>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Escape</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+        <MacroAction>
+          <MacroType>3</MacroType>
+          <Pause>200</Pause>
+        </MacroAction>
+        <MacroAction>
+          <MacroType>1</MacroType>
+          <Keyboard>
+            <Key>Left</Key>
+            <ClickDownUp>0</ClickDownUp>
+            <lCTRL>true</lCTRL>
+            <ClickDuration>20</ClickDuration>
+          </Keyboard>
+        </MacroAction>
+        <MacroAction>
+          <MacroType>55</MacroType>
+          <InsertText>
+            <Text>sealed </Text>
+            <UseKeyboard>false</UseKeyboard>
+            <UseAlternative>false</UseAlternative>
+            <ClickDuration>20</ClickDuration>
+            <ClickDelay>10</ClickDelay>
+          </InsertText>
         </MacroAction>
       </MacroActions>
     </Commands>
